@@ -3,13 +3,13 @@
 
 #My programcis is a personal Movie Rating Library program that allows user to list down the name of movies that they have watched at sepecific year and the user can also rate the movie. 
 
-The user can also edit the ratimg of the movie that they previously rated or delete said movie from the library completety.
+The user can also edit the rating of the movie that they previously rated or delete said movie from the library completetly.
 
 #To start using this program do as said:
 
 #1. Download Docker Desktop.
 
-#2. Clone this reprository to your local machine using "git clone https://github.com/Alax6269/Assignment-7-Week-8-.git" in the terminal.
+#2. Clone this repository to your local machine using "git clone https://github.com/Alax6269/Assignment-7-Week-8-.git" in the terminal.
 
 #3. Open the file on Visual Studio Code app and in the app press "CTRL + ~" to open the terminal.
 
@@ -24,4 +24,4 @@ The user can also edit the ratimg of the movie that they previously rated or del
 
      http://localhost:8081
 
-#6. That is the final step required, now enjoy the system.
+#6. That is the final step required, now enjoy the program.
