@@ -3,7 +3,7 @@
 
 #My programcis is a personal Movie Rating Library program that allows user to list down the name of movies that they have watched at sepecific year and the user can also rate the movie. 
 
-The user can also edit the ratimg og the movie that they previously rated or delete said movie from the library completety.
+The user can also edit the ratimg of the movie that they previously rated or delete said movie from the library completety.
 
 #To start using this program do as said:
 
