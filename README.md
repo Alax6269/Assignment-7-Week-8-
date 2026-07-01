@@ -1,4 +1,9 @@
 # Assignment-7-Week-8-
+# Hello there, in this assignment i will be showing my program that both php and sql with docker to make a data table that is always updating live when user interact with the program. 
+
+#My programcis is a personal Movie Rating Library program that allows user to list down the name of movies that they have watched at sepecific year and the user can also rate the movie. 
+
+The user can also edit the ratimg og the movie that they previously rated or delete said movie from the library completety.
 
 #To start using this program do as said:
 
