@@ -40,11 +40,10 @@ require "db.php"; /*Uses db.php file codes in here*/
         echo "<h3>" . htmlspecialchars($row["title"]) . "</h3>";
         echo "<p>Year: " . htmlspecialchars($row["year"]) . " | Score: " . htmlspecialchars($row["score"]) . "/10</p>";
 
-        // --- BUTTON ZONE (Now safely tucked inside the main movie-item box) ---
+       
         echo "  <div class='movie-actions' style='margin-top: 10px;'>";
         echo '    <a href="edit.php?id=' . htmlspecialchars($row["id"]) . '" class="Edit_Btn">Edit</a>'; /*The Edit button function*/
 
-        // FIXED: Added space before style attribute so the browser reads it smoothly
         echo "    <form action='delete.php' method='POST' onsubmit='return confirm(\"Confirm To Delete The Movie?\");' style='display: inline-block; margin: 0;'>"; /*Deletion confirmation popup and triggers delete function*/
         echo "      <input type='hidden' name='movie_id' value='" . htmlspecialchars($row["id"]) . "'>"; /*This input space is hidden from user view but it selects the Movie by its id*/
         echo "      <button type='submit' class='Delete_Btn'>Delete</button>"; /*Submit the delete command*/
